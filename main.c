@@ -4,6 +4,7 @@
  *
  * An API exploration to help drive documentation.
  */
+#include <wayland-client.h>
 
 int main(int argc, char **argv) {
 	return 0;
