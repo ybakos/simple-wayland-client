@@ -7,5 +7,6 @@
 #include <wayland-client.h>
 
 int main(int argc, char **argv) {
+	struct wl_display *display = wl_display_connect(NULL);
 	return 0;
 }
